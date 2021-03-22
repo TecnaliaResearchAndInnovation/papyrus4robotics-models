@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ML1L0CAbEeuF1ZrSbj_LYw" type="CompositeStructure" name="ForceSensitiveResistor diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ML1L0SAbEeuF1ZrSbj_LYw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ML1L0iAbEeuF1ZrSbj_LYw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ML1L0yAbEeuF1ZrSbj_LYw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ML1L1CAbEeuF1ZrSbj_LYw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ML1L1SAbEeuF1ZrSbj_LYw" type="Class_StructureCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ML1L1iAbEeuF1ZrSbj_LYw" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ML1L1yAbEeuF1ZrSbj_LYw" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ML1L2CAbEeuF1ZrSbj_LYw" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ML1L2SAbEeuF1ZrSbj_LYw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ML1L2iAbEeuF1ZrSbj_LYw" type="Class_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ML1L2yAbEeuF1ZrSbj_LYw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L3CAbEeuF1ZrSbj_LYw"/>
+        </children>
+        <element xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L3SAbEeuF1ZrSbj_LYw" x="14" y="20" width="101" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ML1L3iAbEeuF1ZrSbj_LYw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ML1L3yAbEeuF1ZrSbj_LYw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1L4CAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L4SAbEeuF1ZrSbj_LYw" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QxnrMyAbEeuF1ZrSbj_LYw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QxnrNCAbEeuF1ZrSbj_LYw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QxnrNiAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxnrNSAbEeuF1ZrSbj_LYw" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zXinQCAkEeu08oaM1iCsgw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zXinQSAkEeu08oaM1iCsgw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zXinQyAkEeu08oaM1iCsgw" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zXinQiAkEeu08oaM1iCsgw" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kum29CQXEeuGQ5Z3YY4PPA" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kum29SQXEeuGQ5Z3YY4PPA"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kum29yQXEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kum29iQXEeuGQ5Z3YY4PPA" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_C3oOUC2JEeuqXpzl2BLvOQ" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_C3oOUS2JEeuqXpzl2BLvOQ"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_C3oOUy2JEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3oOUi2JEeuqXpzl2BLvOQ" x="394" y="80"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ML1L4iAbEeuF1ZrSbj_LYw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L4yAbEeuF1ZrSbj_LYw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Qxa24CAbEeuF1ZrSbj_LYw" type="StereotypeLabel">
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_Qxa24SAbEeuF1ZrSbj_LYw" name="stereotype" stringValue="robotics::components::ComponentDefinition"/>
+      <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_L3wdoJZ2Eeeq1f8hGgKVzA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qxa24iAbEeuF1ZrSbj_LYw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Qxbd8CAbEeuF1ZrSbj_LYw" type="StereotypeBrace">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Qxbd8SAbEeuF1ZrSbj_LYw"/>
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_Qxbd8iAbEeuF1ZrSbj_LYw" name="stereotype" stringValue="robotics::components::ComponentDefinition"/>
+      <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_L3wdoJZ2Eeeq1f8hGgKVzA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qxbd8yAbEeuF1ZrSbj_LYw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QxehQCAbEeuF1ZrSbj_LYw" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_QxehQSAbEeuF1ZrSbj_LYw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxehQiAbEeuF1ZrSbj_LYw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Qxg9gCAbEeuF1ZrSbj_LYw" type="StereotypeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Qxg9gSAbEeuF1ZrSbj_LYw"/>
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_Qxg9giAbEeuF1ZrSbj_LYw" name="stereotype" stringValue="robotics::components::ComponentDefinition"/>
+      <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_L3wdoJZ2Eeeq1f8hGgKVzA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qxg9gyAbEeuF1ZrSbj_LYw"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VN0JsCAbEeuF1ZrSbj_LYw" type="Port_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VN1X0CAbEeuF1ZrSbj_LYw" type="Port_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VN1X0SAbEeuF1ZrSbj_LYw" x="25" y="3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VN1X0iAbEeuF1ZrSbj_LYw" type="Port_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VN1X0yAbEeuF1ZrSbj_LYw" x="25" y="-10"/>
+      </children>
+      <element xmi:type="uml:Port" href="ForceSensitiveResistor.compdef.uml#_Sg0X8CAbEeuF1ZrSbj_LYw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VN0JsSAbEeuF1ZrSbj_LYw" x="591" y="140"/>
+    </children>
+    <element xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L5CAbEeuF1ZrSbj_LYw" x="100" y="60" width="241" height="161"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ML1L5SAbEeuF1ZrSbj_LYw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_ML1L5iAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1L5yAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L6CAbEeuF1ZrSbj_LYw" x="420" y="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ML1L6SAbEeuF1ZrSbj_LYw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_ML1L6iAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1L6yAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L7CAbEeuF1ZrSbj_LYw" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ML1L7SAbEeuF1ZrSbj_LYw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_ML1L7iAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1L7yAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ML1L8CAbEeuF1ZrSbj_LYw" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_QxfIUCAbEeuF1ZrSbj_LYw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_QxfIUSAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QxfvYCAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxfIUiAbEeuF1ZrSbj_LYw" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zW9_gCAkEeu08oaM1iCsgw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_zW9_gSAkEeu08oaM1iCsgw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zW9_gyAkEeu08oaM1iCsgw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zW9_giAkEeu08oaM1iCsgw" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_kum2sCQXEeuGQ5Z3YY4PPA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_kum2sSQXEeuGQ5Z3YY4PPA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kum2syQXEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kum2siQXEeuGQ5Z3YY4PPA" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_C3lLGi2JEeuqXpzl2BLvOQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_C3lLGy2JEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_C3lLHS2JEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3lLHC2JEeuqXpzl2BLvOQ" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_C3sfwC2JEeuqXpzl2BLvOQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_C3sfwS2JEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_C3tG0C2JEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="ForceSensitiveResistor.compdef.uml#_Sg0X8CAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3sfwi2JEeuqXpzl2BLvOQ" x="791" y="140"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_ML1L8SAbEeuF1ZrSbj_LYw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ML1L8iAbEeuF1ZrSbj_LYw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ML1L8yAbEeuF1ZrSbj_LYw" diagramKindId="org.eclipse.papyrus.robotics.diagram.component">
+    <owner xmi:type="uml:Model" href="ForceSensitiveResistor.compdef.uml#_MLoXgCAbEeuF1ZrSbj_LYw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="ForceSensitiveResistor.compdef.uml#_MLoXgCAbEeuF1ZrSbj_LYw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_ML1L9CAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ML1L9SAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1L9iAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ML1L9yAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1L-CAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1L-SAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ML1L-iAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_ML1L5SAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ML1L-yAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1L_CAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ML1L_SAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1L_iAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1L_yAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ML1MACAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L1iAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ML1MASAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1MAiAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ML1MAyAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MBCAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MBSAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ML1MBiAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_ML1L6SAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ML1MByAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1MCCAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ML1MCSAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MCiAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MCyAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ML1MDCAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_ML1L7SAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ML1MDSAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1MDiAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ML1MDyAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MECAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MESAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ML1MEiAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L1iAbEeuF1ZrSbj_LYw" target="_ML1L3iAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ML1MEyAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ML1MFCAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ML1MFSAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MFiAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ML1MFyAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QxfvYSAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_QxfIUCAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_QxfvYiAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QxfvZiAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QxfvYyAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QxfvZCAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QxfvZSAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QxnrNyAbEeuF1ZrSbj_LYw" type="StereotypeCommentLink" source="_ML1L1iAbEeuF1ZrSbj_LYw" target="_QxnrMyAbEeuF1ZrSbj_LYw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_QxnrOCAbEeuF1ZrSbj_LYw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QxnrPCAbEeuF1ZrSbj_LYw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QxnrOSAbEeuF1ZrSbj_LYw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QxnrOiAbEeuF1ZrSbj_LYw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QxnrOyAbEeuF1ZrSbj_LYw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zW-mkCAkEeu08oaM1iCsgw" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_zW9_gCAkEeu08oaM1iCsgw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zW-mkSAkEeu08oaM1iCsgw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zW_NoiAkEeu08oaM1iCsgw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zW-mkiAkEeu08oaM1iCsgw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zW_NoCAkEeu08oaM1iCsgw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zW_NoSAkEeu08oaM1iCsgw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zXjOUCAkEeu08oaM1iCsgw" type="StereotypeCommentLink" source="_ML1L1iAbEeuF1ZrSbj_LYw" target="_zXinQCAkEeu08oaM1iCsgw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zXjOUSAkEeu08oaM1iCsgw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zXjOVSAkEeu08oaM1iCsgw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zXjOUiAkEeu08oaM1iCsgw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zXjOUyAkEeu08oaM1iCsgw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zXjOVCAkEeu08oaM1iCsgw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kum2tCQXEeuGQ5Z3YY4PPA" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_kum2sCQXEeuGQ5Z3YY4PPA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_kum2tSQXEeuGQ5Z3YY4PPA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kum2uSQXEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kum2tiQXEeuGQ5Z3YY4PPA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kum2tyQXEeuGQ5Z3YY4PPA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kum2uCQXEeuGQ5Z3YY4PPA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kum2-CQXEeuGQ5Z3YY4PPA" type="StereotypeCommentLink" source="_ML1L1iAbEeuF1ZrSbj_LYw" target="_kum29CQXEeuGQ5Z3YY4PPA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_kum2-SQXEeuGQ5Z3YY4PPA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kum2_SQXEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kum2-iQXEeuGQ5Z3YY4PPA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kum2-yQXEeuGQ5Z3YY4PPA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kum2_CQXEeuGQ5Z3YY4PPA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_C3lLHi2JEeuqXpzl2BLvOQ" type="StereotypeCommentLink" source="_ML1L0SAbEeuF1ZrSbj_LYw" target="_C3lLGi2JEeuqXpzl2BLvOQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_C3lLHy2JEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_C3lLIy2JEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C3lLIC2JEeuqXpzl2BLvOQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3lLIS2JEeuqXpzl2BLvOQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3lLIi2JEeuqXpzl2BLvOQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_C3oOVC2JEeuqXpzl2BLvOQ" type="StereotypeCommentLink" source="_ML1L1iAbEeuF1ZrSbj_LYw" target="_C3oOUC2JEeuqXpzl2BLvOQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_C3oOVS2JEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_C3oOWS2JEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="ForceSensitiveResistor.compdef.uml#_MLoXhSAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C3oOVi2JEeuqXpzl2BLvOQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3oOVy2JEeuqXpzl2BLvOQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3oOWC2JEeuqXpzl2BLvOQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_C3tG0S2JEeuqXpzl2BLvOQ" type="StereotypeCommentLink" source="_VN0JsCAbEeuF1ZrSbj_LYw" target="_C3sfwC2JEeuqXpzl2BLvOQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_C3tG0i2JEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_C3tG1i2JEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="ForceSensitiveResistor.compdef.uml#_Sg0X8CAbEeuF1ZrSbj_LYw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C3tG0y2JEeuqXpzl2BLvOQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3tG1C2JEeuqXpzl2BLvOQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3tG1S2JEeuqXpzl2BLvOQ"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assertions="http://www.eclipse.org/papyrus/robotics/assertions/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
+  <uml:Model xmi:id="_C8Ek4C-3EeuRI8TFRRccyg" name="MotorCompdef">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_C8Ek4S-3EeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_C8Ek4i-3EeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIBRARY/ros2.primitive.uml#_T7frkG-0EeiX6ta975XXMg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_JFmu8C-3EeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIB_BASE/services/std_msgs.servicedef.uml#ID"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_C8Ek4y-3EeuRI8TFRRccyg" name="Motor">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_G1kmAC-3EeuRI8TFRRccyg" name="in_spin" type="_JHnhIC-3EeuRI8TFRRccyg" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_KWfIAC-3EeuRI8TFRRccyg" name="out_spin_number" type="_Ma8TEC-3EeuRI8TFRRccyg" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Ul2XkDLvEeuHqJjGBEv9aA" name="weight">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_WJWxsDLvEeuHqJjGBEv9aA">
+          <language>OCL</language>
+          <body>100</body>
+        </defaultValue>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_C8Ek5C-3EeuRI8TFRRccyg">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_P_4ZcC-3EeuRI8TFRRccyg" name="max_speed">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_5jQLkDL8Eeu_e4MztRMXwA" value="100000"/>
+        </ownedAttribute>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_JHnhIC-3EeuRI8TFRRccyg"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Ma8TEC-3EeuRI8TFRRccyg">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MbCZsC-3EeuRI8TFRRccyg" client="_Ma8TEC-3EeuRI8TFRRccyg">
+          <supplier xmi:type="uml:Interface" href="pathmap://ROS2_LIB_BASE/services/std_msgs.servicedef.uml#svcdefs/P_Int64"/>
+          <contract xmi:type="uml:Interface" href="pathmap://ROS2_LIB_BASE/services/std_msgs.servicedef.uml#svcdefs/P_Int64"/>
+        </interfaceRealization>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_JH51AC-3EeuRI8TFRRccyg" client="_JHnhIC-3EeuRI8TFRRccyg">
+      <supplier xmi:type="uml:Interface" href="pathmap://ROS2_LIB_BASE/services/std_msgs.servicedef.uml#svcdefs/P_Int64"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek5S-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek5i-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek5y-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek6C-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek6S-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek6i-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//components"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_EZ1TgJZ2Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek6y-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek7C-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commpattern"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_8Z6x8Je6EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek7S-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek7i-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//deployment"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_tu6OsJe9EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek7y-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek8C-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//services"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SlbOAJe_EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek8S-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek8i-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commobject"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_bz5AcPCaEeee6ab5J_C5Dg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek8y-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek9C-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//functions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SV7GwC6LEei0V9-WLHIyvg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek9S-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek9i-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//parameters"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_-pU5oDmpEei--ZsfKWaFtw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C8Ek9y-3EeuRI8TFRRccyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C8Ek-C-3EeuRI8TFRRccyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WJKkcDLvEeuHqJjGBEv9aA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WJPc8DLvEeuHqJjGBEv9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/assertions/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_ASSERTIONS/assertions.profile.uml#_N9HP0HQPEeqOfoT8vF1-1w"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.components:ComponentDefinitionModel xmi:id="_C8Ek-S-3EeuRI8TFRRccyg" base_Package="_C8Ek4C-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentDefinition xmi:id="_C8Ek-i-3EeuRI8TFRRccyg" base_Class="_C8Ek4y-3EeuRI8TFRRccyg"/>
+  <robotics.parameters:Parameter xmi:id="_C8Ek-y-3EeuRI8TFRRccyg" base_Class="_C8Ek5C-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentService xmi:id="_JHrLgC-3EeuRI8TFRRccyg" base_Class="_JHnhIC-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentPort xmi:id="_JH9fYC-3EeuRI8TFRRccyg" base_Port="_G1kmAC-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentService xmi:id="_Ma_WYC-3EeuRI8TFRRccyg" base_Class="_Ma8TEC-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentPort xmi:id="_MbE18C-3EeuRI8TFRRccyg" base_Port="_KWfIAC-3EeuRI8TFRRccyg"/>
+  <robotics.parameters:ParameterEntry xmi:id="_RflRoC-3EeuRI8TFRRccyg" base_Property="_P_4ZcC-3EeuRI8TFRRccyg"/>
+  <assertions:Property xmi:id="_WJTuYDLvEeuHqJjGBEv9aA" base_Property="_Ul2XkDLvEeuHqJjGBEv9aA"/>
+</xmi:XMI>

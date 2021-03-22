@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assertions="http://www.eclipse.org/papyrus/robotics/assertions/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
+  <uml:Model xmi:id="_vXLHICA6Eeu08oaM1iCsgw" name="ArmAssistSystemSystem">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_vXLHISA6Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_vXLHIiA6Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_LaOOAJcvEeeV0-Lu2yLOjA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_LGDzkCA8Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="../components/QRManager.compdef.uml#_omWloB6wEeunI8If6MbfPg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_kdRTcCA8Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="../components/PositioningSystem.compdef.uml#_fIsA0B8-Eeugd_rN4t5mbA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_P3nrcCJoEeuzyIKctWR2HA">
+      <importedPackage xmi:type="uml:Model" href="../components/UserManager.compdef.uml#_meCBQB8_Eeugd_rN4t5mbA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_mcm7UCJoEeuzyIKctWR2HA">
+      <importedPackage xmi:type="uml:Model" href="../components/Calibrator.compdef.uml#_vPxxoB9pEeu4_YLKsLW7dQ"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_1QohkCJuEeuzyIKctWR2HA">
+      <importedPackage xmi:type="uml:Model" href="../components/MainControlUnit.compdef.uml#_JlS8gCAdEeuF1ZrSbj_LYw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_XwNesCJwEeuzyIKctWR2HA">
+      <importedPackage xmi:type="uml:Model" href="../components/ForceSensitiveResistor.compdef.uml#_MLoXgCAbEeuF1ZrSbj_LYw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iOgpkCJwEeuzyIKctWR2HA">
+      <importedPackage xmi:type="uml:Model" href="../components/Potentiometer.compdef.uml#_mkmPUCAbEeuF1ZrSbj_LYw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_mALkYCJwEeuzyIKctWR2HA">
+      <importedPackage xmi:type="uml:Model" href="../components/LoadCells.compdef.uml#_GlMWoCAfEeuF1ZrSbj_LYw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_7enZACN6EeubsovPQ54aZw">
+      <importedPackage xmi:type="uml:Model" href="../components/Camera.compdef.uml#_7TlrQCA5Eeu08oaM1iCsgw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_dJlaoC-3EeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="../components/Motor.compdef.uml#_C8Ek4C-3EeuRI8TFRRccyg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_AT-EwC-4EeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="../components/ActivityManager.compdef.uml#_Ad6gYC-3EeuRI8TFRRccyg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_2S8HEC_rEeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="../components/CalibrationActivityManager.compdef.uml#__bUdUC_qEeuRI8TFRRccyg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Is0xADADEeuRI8TFRRccyg">
+      <importedPackage xmi:type="uml:Model" href="../components/TherapistConfigurationManager.compdef.uml#_wQvu4CJoEeuzyIKctWR2HA"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vXLHIyA6Eeu08oaM1iCsgw" name="ArmAssist">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_yjw3oDMBEeu_e4MztRMXwA">
+        <body>SystemContract</body>
+      </ownedComment>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_XYx8wDLwEeuHqJjGBEv9aA" name="avoidLiftingItUp" constrainedElement="_vXLHIyA6Eeu08oaM1iCsgw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_XZyCUDLwEeuHqJjGBEv9aA" name="constraintSpec">
+          <language>P4R OCL</language>
+          <body>structureWeight + GlobalSum(weight) + leadWeight >= minRecommendedWeight</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_HkLoUDMAEeu_e4MztRMXwA" name="speedLimit_motor1" constrainedElement="_vXLHIyA6Eeu08oaM1iCsgw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_Hki0sDMAEeu_e4MztRMXwA" name="constraintSpec">
+          <language>P4R OCL</language>
+          <body>mcu.motors_speed = motor1.max_speed</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_2KfjMDMAEeu_e4MztRMXwA" name="speedLimit_motor2" constrainedElement="_vXLHIyA6Eeu08oaM1iCsgw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_2KuzwDMAEeu_e4MztRMXwA" name="constraintSpec">
+          <language>P4R OCL</language>
+          <body>mcu.motors_speed = motor2.max_speed&#xD;
+</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_8kkqsDMAEeu_e4MztRMXwA" name="speedLimit_motor3" constrainedElement="_vXLHIyA6Eeu08oaM1iCsgw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_8kz7QDMAEeu_e4MztRMXwA" name="constraintSpec">
+          <language>P4R OCL</language>
+          <body>mcu.motors_speed = motor3.max_speed</body>
+        </specification>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JcnwkCA8Eeu08oaM1iCsgw" name="QRManager">
+        <type xmi:type="uml:Class" href="../components/QRManager.compdef.uml#_omWlpB6wEeunI8If6MbfPg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8SHEcCJnEeuzyIKctWR2HA" name="positioningSystem">
+        <type xmi:type="uml:Class" href="../components/PositioningSystem.compdef.uml#_fIsA1B8-Eeugd_rN4t5mbA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NKWM4CJoEeuzyIKctWR2HA" name="userManager">
+        <type xmi:type="uml:Class" href="../components/UserManager.compdef.uml#_meCBRB8_Eeugd_rN4t5mbA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yz71oCJuEeuzyIKctWR2HA" name="mcu">
+        <type xmi:type="uml:Class" href="../components/MainControlUnit.compdef.uml#_JlS8hCAdEeuF1ZrSbj_LYw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wgb44CJwEeuzyIKctWR2HA" name="thumb_fsr">
+        <type xmi:type="uml:Class" href="../components/ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_acZYICJwEeuzyIKctWR2HA" name="fingers_fsr">
+        <type xmi:type="uml:Class" href="../components/ForceSensitiveResistor.compdef.uml#_MLoXhCAbEeuF1ZrSbj_LYw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gu_-oCJwEeuzyIKctWR2HA" name="wirst_potentiometer">
+        <type xmi:type="uml:Class" href="../components/Potentiometer.compdef.uml#_mkmPVCAbEeuF1ZrSbj_LYw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kq07ACJwEeuzyIKctWR2HA" name="shoulder_loadCells">
+        <type xmi:type="uml:Class" href="../components/LoadCells.compdef.uml#_GlMWpCAfEeuF1ZrSbj_LYw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_59xRUCN6EeubsovPQ54aZw" name="camera">
+        <type xmi:type="uml:Class" href="../components/Camera.compdef.uml#_7TlrQyA5Eeu08oaM1iCsgw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_b0nLwC-3EeuRI8TFRRccyg" name="motor3">
+        <type xmi:type="uml:Class" href="../components/Motor.compdef.uml#_C8Ek4y-3EeuRI8TFRRccyg"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="_FnHJkDL-Eeu_e4MztRMXwA" instance="_FnIXsDL-Eeu_e4MztRMXwA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_d41tUC-3EeuRI8TFRRccyg" name="motor2">
+        <type xmi:type="uml:Class" href="../components/Motor.compdef.uml#_C8Ek4y-3EeuRI8TFRRccyg"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="_Ewx-gDL-Eeu_e4MztRMXwA" instance="_EwzMoDL-Eeu_e4MztRMXwA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gHU-IC-3EeuRI8TFRRccyg" name="motor1">
+        <type xmi:type="uml:Class" href="../components/Motor.compdef.uml#_C8Ek4y-3EeuRI8TFRRccyg"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="_D1tdYDL-Eeu_e4MztRMXwA" instance="_D18t8TL-Eeu_e4MztRMXwA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__M2rsC-3EeuRI8TFRRccyg" name="activityManager">
+        <type xmi:type="uml:Class" href="../components/ActivityManager.compdef.uml#_Ad6gYy-3EeuRI8TFRRccyg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1h7g4C_rEeuRI8TFRRccyg" name="calibrationActivityManager">
+        <type xmi:type="uml:Class" href="../components/CalibrationActivityManager.compdef.uml#__bUdUy_qEeuRI8TFRRccyg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FO1AIDADEeuRI8TFRRccyg" name="therapistConfigurationManager">
+        <type xmi:type="uml:Class" href="../components/TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nEDYQDLvEeuHqJjGBEv9aA" name="structureWeight">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_nz3roDLvEeuHqJjGBEv9aA">
+          <language>OCL</language>
+          <body>3700</body>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2DiPUDLvEeuHqJjGBEv9aA" name="leadWeight">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_2rN6YDLvEeuHqJjGBEv9aA">
+          <language>OCL</language>
+          <body>6000</body>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5levQDLzEeufbP1yHwB7yg" name="minRecommendedWeight">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_6UKaMDLzEeufbP1yHwB7yg">
+          <language>OCL</language>
+          <body>7000</body>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_Fuh7kCJoEeuzyIKctWR2HA" name="Connects5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_FurFgCJoEeuzyIKctWR2HA" partWithPort="_JcnwkCA8Eeu08oaM1iCsgw">
+          <role xmi:type="uml:Port" href="../components/QRManager.compdef.uml#_wha1ECAsEeu08oaM1iCsgw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_FurFgSJoEeuzyIKctWR2HA" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_JxQcECJmEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_iIIxQCJvEeuzyIKctWR2HA" name="Connects22">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_iIO34CJvEeuzyIKctWR2HA" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_4R4wQCJnEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_iIO34SJvEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_bgbdcCJvEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_i737UCJvEeuzyIKctWR2HA" name="Connects23">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_i737USJvEeuzyIKctWR2HA" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_0g_RgCJnEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_i737UiJvEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_TXDikCJvEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_jsjxYCJvEeuzyIKctWR2HA" name="Connects24">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_jsk_gCJvEeuzyIKctWR2HA" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_hPJ0cCJnEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_jsk_gSJvEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_MRJP0CJvEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ZmLh0CJwEeuzyIKctWR2HA" name="Connects31">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ZmLh0SJwEeuzyIKctWR2HA" partWithPort="_Wgb44CJwEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/ForceSensitiveResistor.compdef.uml#_Sg0X8CAbEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ZmLh0iJwEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_fsoxoCAeEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_dNltYCJwEeuzyIKctWR2HA" name="Connects33">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_dNltYSJwEeuzyIKctWR2HA" partWithPort="_acZYICJwEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/ForceSensitiveResistor.compdef.uml#_Sg0X8CAbEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_dNltYiJwEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_jGDkgCAeEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_j9bCcCJwEeuzyIKctWR2HA" name="Connects35">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_j9bCcSJwEeuzyIKctWR2HA" partWithPort="_gu_-oCJwEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/Potentiometer.compdef.uml#_pCf1ICAbEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_j9bCciJwEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_n_mGUCAeEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_o8chMCJwEeuzyIKctWR2HA" name="Connects37">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_o8iAwCJwEeuzyIKctWR2HA" partWithPort="_kq07ACJwEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/LoadCells.compdef.uml#_HrWGYCAfEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_o8iAwSJwEeuzyIKctWR2HA" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#__oCXQCAeEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_9pD3UCN6EeubsovPQ54aZw" name="Connects58">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9pHhsCN6EeubsovPQ54aZw" partWithPort="_59xRUCN6EeubsovPQ54aZw">
+          <role xmi:type="uml:Port" href="../components/Camera.compdef.uml#_EQTuoCA6Eeu08oaM1iCsgw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9pIIwCN6EeubsovPQ54aZw" partWithPort="_JcnwkCA8Eeu08oaM1iCsgw">
+          <role xmi:type="uml:Port" href="../components/QRManager.compdef.uml#_U_lioCAqEeu08oaM1iCsgw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_pngT4C-3EeuRI8TFRRccyg" name="Connects34">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_pniwIC-3EeuRI8TFRRccyg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_2M3dUCAeEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_pnjXMC-3EeuRI8TFRRccyg" partWithPort="_gHU-IC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/Motor.compdef.uml#_G1kmAC-3EeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_qheBwC-3EeuRI8TFRRccyg" name="Connects35">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_qhf28C-3EeuRI8TFRRccyg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_4iFoQCAeEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_qhf28S-3EeuRI8TFRRccyg" partWithPort="_d41tUC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/Motor.compdef.uml#_G1kmAC-3EeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_rWdwEC-3EeuRI8TFRRccyg" name="Connects36">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_rWflQC-3EeuRI8TFRRccyg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_7FbHsCAeEeuF1ZrSbj_LYw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_rWflQS-3EeuRI8TFRRccyg" partWithPort="_b0nLwC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/Motor.compdef.uml#_G1kmAC-3EeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_yxQtsC-3EeuRI8TFRRccyg" name="Connects37">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_yxTJ8C-3EeuRI8TFRRccyg" partWithPort="_b0nLwC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/Motor.compdef.uml#_KWfIAC-3EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_yxTJ8S-3EeuRI8TFRRccyg" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_RcU04CJnEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_z4EkwC-3EeuRI8TFRRccyg" name="Connects38">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_z4HBAC-3EeuRI8TFRRccyg" partWithPort="_d41tUC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/Motor.compdef.uml#_KWfIAC-3EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_z4HBAS-3EeuRI8TFRRccyg" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_PEaiUCJnEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_27NloC-3EeuRI8TFRRccyg" name="Connects39">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_27Pa0C-3EeuRI8TFRRccyg" partWithPort="_gHU-IC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/Motor.compdef.uml#_KWfIAC-3EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_27Pa0S-3EeuRI8TFRRccyg" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_FNmOMCJnEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_sYZRsC-4EeuRI8TFRRccyg" name="Connects41">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_sYbG4C-4EeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_dSoMcC-4EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_sYbG4S-4EeuRI8TFRRccyg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_mJeusCAdEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_xc5GUC-4EeuRI8TFRRccyg" name="Connects42">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_xc8JoC-4EeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_mDBrEC-4EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_xc8JoS-4EeuRI8TFRRccyg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_0MsKwCAdEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_9vhVkC-4EeuRI8TFRRccyg" name="Connects43">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9vkY4C-4EeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_jiqnIC-4EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9vkY4S-4EeuRI8TFRRccyg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_wZ7DwCAdEeuF1ZrSbj_LYw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_iUV9YC-5EeuRI8TFRRccyg" name="Connects44">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_iUZAsC-5EeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_UaQhcCJuEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_iUZnwC-5EeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_Yln1UC-5EeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_r0jIsDADEeuRI8TFRRccyg" name="Connects42">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_r0k94DADEeuRI8TFRRccyg" partWithPort="_FO1AIDADEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/TherapistConfigurationManager.compdef.uml#_217TICJoEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_r0k94TADEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_uYcywB9CEeugd_rN4t5mbA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_sw3nADADEeuRI8TFRRccyg" name="Connects43">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_sw41IDADEeuRI8TFRRccyg" partWithPort="_FO1AIDADEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/TherapistConfigurationManager.compdef.uml#__ZG1ICJoEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_sw5cMDADEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_qWqYUB9CEeugd_rN4t5mbA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_uyFQ0DADEeuRI8TFRRccyg" name="Connects44">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uyGe8DADEeuRI8TFRRccyg" partWithPort="_FO1AIDADEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/TherapistConfigurationManager.compdef.uml#_DIQncCJpEeuzyIKctWR2HA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uyGe8TADEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_AoL3oB9ZEeuoi-OGEqHHeA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_tDAmQDALEeuRI8TFRRccyg" name="Connects45">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_tDH7ADALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_4OvUUDAKEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_tDIiEDALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_sGx2QDAFEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ugi7QDALEeuRI8TFRRccyg" name="Connects46">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ugkwcDALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_6wT5MDAKEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ugkwcTALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_x3EZ4DAFEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ve8dMDALEeuRI8TFRRccyg" name="Connects47">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ve-SYDALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_8FPEwDAKEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ve-SYTALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_1RddIDAFEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_wlfOgDALEeuRI8TFRRccyg" name="Connects48">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_wlhDsDALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_9eTJcDAKEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_wlhDsTALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_23_WEDAFEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_xilv8DALEeuRI8TFRRccyg" name="Connects49">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_xinlIDALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_BTX9kDALEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_xinlITALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_5x6JgDAFEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_y50ooDALEeuRI8TFRRccyg" name="Connects50">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_y53E4DALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_C5PvMDALEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_y53E4TALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_BfgHUDAGEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_z44R4DALEeuRI8TFRRccyg" name="Connects51">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_z47VMDALEeuRI8TFRRccyg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_D-HFgDALEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_z47VMTALEeuRI8TFRRccyg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#__Ls4sDAFEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_o7LX8DA8EeuZK9oFDoz9Xg" name="Connects51">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_o7jycDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_-gR48DAMEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_o7jycTA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_XXB3cDAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_rKJw8DA8EeuZK9oFDoz9Xg" name="Connects52">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_rKM0QDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_B0Xf4DANEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_rKNbUDA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_bXElcDAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_tKLvADA8EeuZK9oFDoz9Xg" name="Connects53">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_tKQAcDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_JmNEgDANEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_tKQAcTA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_noM_4DAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_vVFgUDA8EeuZK9oFDoz9Xg" name="Connects54">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vVJKsDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_DmMC0DANEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vVJKsTA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_dJ4m4DAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_w9RmIDA8EeuZK9oFDoz9Xg" name="Connects55">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_w9UCYDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_H4IZIDANEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_w9UpcDA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_k5W0ADAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_1DX40DA8EeuZK9oFDoz9Xg" name="Connects56">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_1DbjMDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_E4WOQDANEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_1DcKQDA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_ewHk4DAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_2uUXsDA8EeuZK9oFDoz9Xg" name="Connects57">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_2uYpIDA8EeuZK9oFDoz9Xg" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_GRnHQDANEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_2uZQMDA8EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_ijLm0DAKEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_iblB0DA9EeuZK9oFDoz9Xg" name="Connects58">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ibosMDA9EeuZK9oFDoz9Xg" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_t4FVcC_9EeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ibosMTA9EeuZK9oFDoz9Xg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_RG_UkDA9EeuZK9oFDoz9Xg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_u2ax4DA9EeuZK9oFDoz9Xg" name="Connects59">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_u2ecQDA9EeuZK9oFDoz9Xg" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_58JawC8tEeugHZKCbQxokA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_u2ecQTA9EeuZK9oFDoz9Xg" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_V3t4oDA9EeuZK9oFDoz9Xg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_tKqn0DCXEeuJqrcFq_KYYQ" name="Connects60">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_tKzKsDCXEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_iCvhUDAMEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_tKzKsTCXEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_8gTxkDCWEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_uRJuwDCXEeuJqrcFq_KYYQ" name="Connects61">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uRMyEDCXEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_j9kPQDAMEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uRMyETCXEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_BF9HADCXEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_DmOYcDCkEeuJqrcFq_KYYQ" name="Connects62">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_DmVGIDCkEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_DMadMDCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_DmVtMDCkEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_lqN-UDAMEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_Ukkv8DCkEeuJqrcFq_KYYQ" name="Connects63">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_UknMMDCkEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_FDZ0ADCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_UknMMTCkEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_WGcxcC_rEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_VkIIcDCkEeuJqrcFq_KYYQ" name="Connects64">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_VkLLwDCkEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_Hjr_cDCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_VkLLwTCkEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_nTtEoDAMEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_XkSpYDCkEeuJqrcFq_KYYQ" name="Connects65">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XkVFoDCkEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_LdqhsDCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XkVFoTCkEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_pOjAsDAMEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_YoHd4DCkEeuJqrcFq_KYYQ" name="Connects66">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_YoJ6IDCkEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_JxhwADCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_YoJ6ITCkEeuJqrcFq_KYYQ" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_v1gtoDAMEeuRI8TFRRccyg"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_eGkt0DCoEeuJqrcFq_KYYQ" name="Connects63">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_eGsCkDCoEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_8gTxkDCWEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_eGsCkTCoEeuJqrcFq_KYYQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_4A_IwDClEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_gSucUDCoEeuJqrcFq_KYYQ" name="Connects64">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gSw4kDCoEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_BF9HADCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gSw4kTCoEeuJqrcFq_KYYQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_6_BAIDClEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ko5yYDCoEeuJqrcFq_KYYQ" name="Connects65">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ko7nkDCoEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_DMadMDCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ko8OoDCoEeuJqrcFq_KYYQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_EoZ8QDCmEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_mNUygDCoEeuJqrcFq_KYYQ" name="Connects66">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_mNWnsDCoEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_FDZ0ADCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_mNXOwDCoEeuJqrcFq_KYYQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_MusG4DCmEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_niTBYDCoEeuJqrcFq_KYYQ" name="Connects67">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_niU2kDCoEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_Hjr_cDCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_niU2kTCoEeuJqrcFq_KYYQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_yKYFQDCmEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_pqjuYDCoEeuJqrcFq_KYYQ" name="Connects68">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_pqmKoDCoEeuJqrcFq_KYYQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_LdqhsDCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_pqmKoTCoEeuJqrcFq_KYYQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_0v_coDCmEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_0yahsDCqEeu1D4wq5GCSUQ" name="Connects67">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_0yqZUDCqEeu1D4wq5GCSUQ" partWithPort="_JcnwkCA8Eeu08oaM1iCsgw">
+          <role xmi:type="uml:Port" href="../components/QRManager.compdef.uml#_WVYmACAsEeu08oaM1iCsgw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_0yqZUTCqEeu1D4wq5GCSUQ" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_7E9mwCJlEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_17PyADCqEeu1D4wq5GCSUQ" name="Connects68">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_17UqgDCqEeu1D4wq5GCSUQ" partWithPort="_JcnwkCA8Eeu08oaM1iCsgw">
+          <role xmi:type="uml:Port" href="../components/QRManager.compdef.uml#_k4oNACAsEeu08oaM1iCsgw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_17VRkDCqEeu1D4wq5GCSUQ" partWithPort="_8SHEcCJnEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/PositioningSystem.compdef.uml#_EnMK8CJmEeuzyIKctWR2HA"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_8-_7EDDKEeu1D4wq5GCSUQ" name="Connects69">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_8_C-YDDKEeu1D4wq5GCSUQ" partWithPort="_yz71oCJuEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/MainControlUnit.compdef.uml#_JxhwADCXEeuJqrcFq_KYYQ"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_8_C-YTDKEeu1D4wq5GCSUQ" partWithPort="__M2rsC-3EeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/ActivityManager.compdef.uml#_BGrQADCoEeuJqrcFq_KYYQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_s_j7gDDNEeuup88rAKJRkw" name="Connects70">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_s__ZUDDNEeuup88rAKJRkw" partWithPort="_1h7g4C_rEeuRI8TFRRccyg">
+          <role xmi:type="uml:Port" href="../components/CalibrationActivityManager.compdef.uml#_3LD-4DAMEeuRI8TFRRccyg"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_s__ZUTDNEeuup88rAKJRkw" partWithPort="_NKWM4CJoEeuzyIKctWR2HA">
+          <role xmi:type="uml:Port" href="../components/UserManager.compdef.uml#_i2WP0DDNEeuup88rAKJRkw"/>
+        </end>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D18t8DL-Eeu_e4MztRMXwA" name="instances">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_D18t8TL-Eeu_e4MztRMXwA">
+        <slot xmi:type="uml:Slot" xmi:id="_D18t8jL-Eeu_e4MztRMXwA">
+          <definingFeature xmi:type="uml:Property" href="../components/Motor.compdef.uml#_P_4ZcC-3EeuRI8TFRRccyg"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_OMmxYDNOEeu_e4MztRMXwA" value="14"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_EwzMoDL-Eeu_e4MztRMXwA">
+        <slot xmi:type="uml:Slot" xmi:id="_EwzzsDL-Eeu_e4MztRMXwA">
+          <definingFeature xmi:type="uml:Property" href="../components/Motor.compdef.uml#_P_4ZcC-3EeuRI8TFRRccyg"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_ExOqcDL-Eeu_e4MztRMXwA" value="5000"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_FnIXsDL-Eeu_e4MztRMXwA">
+        <slot xmi:type="uml:Slot" xmi:id="_FnIXsTL-Eeu_e4MztRMXwA">
+          <definingFeature xmi:type="uml:Property" href="../components/Motor.compdef.uml#_P_4ZcC-3EeuRI8TFRRccyg"/>
+          <value xmi:type="uml:LiteralInteger" xmi:id="_FnZdcDL-Eeu_e4MztRMXwA" value="5000"/>
+        </slot>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHJCA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHJSA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHJiA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHJyA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHKCA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHKSA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//components"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_EZ1TgJZ2Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHKiA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHKyA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commpattern"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_8Z6x8Je6EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHLCA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHLSA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//deployment"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_tu6OsJe9EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHLiA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHLyA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//services"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SlbOAJe_EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHMCA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHMSA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commobject"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_bz5AcPCaEeee6ab5J_C5Dg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHMiA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHMyA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//functions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SV7GwC6LEei0V9-WLHIyvg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHNCA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHNSA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//parameters"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_-pU5oDmpEei--ZsfKWaFtw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHNiA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHNyA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHOCA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHOSA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Foundations/NFPs"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vXLHOiA6Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vXLHOyA6Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Annexes/VSL/DataTypes"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FUcucDCcEeuJqrcFq_KYYQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FUiOADCcEeuJqrcFq_KYYQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/assertions/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_ASSERTIONS/assertions.profile.uml#_N9HP0HQPEeqOfoT8vF1-1w"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.components:SystemComponentArchitectureModel xmi:id="_vXLHPCA6Eeu08oaM1iCsgw" base_Package="_vXLHICA6Eeu08oaM1iCsgw"/>
+  <robotics.components:System xmi:id="_vXLHPSA6Eeu08oaM1iCsgw" description="ArmAssist is a robotic system based on serious games for upper-limb rehabilitation of stroke survivors. It is a portable device that can be used in clinical rehabilitation, but also at home with remote supervision. The ArmAssist is an affordable, mobile and sensorized robot integrated in an assessment platform for automated quantitative evaluation of the patient's movements and interaction forces." base_Class="_vXLHIyA6Eeu08oaM1iCsgw"/>
+  <robotics.components:ComponentInstance xmi:id="_LGFBsCA8Eeu08oaM1iCsgw" description="This software component processes the images received by the Camera and gets the information from the QR codes where each one represents its position in the table." base_Property="_JcnwkCA8Eeu08oaM1iCsgw"/>
+  <robotics.components:ComponentInstance xmi:id="_88hTYCJnEeuzyIKctWR2HA" description="The objective of the positioning system is to provide the MainControlUnit with an accurate position and orientation of the robot with respect to the table, which are represented on the screen by the TeleReha software. The robot is used on top of a mat which includes a grid of QR codes (Quick Response codes) with the position coordinates. QR codes information are continuously read by a camera installed inside the robot. The information of the robot's position is then consolidated taking into account two sources: (i) the information of the QR read by the Camera and processed by the QRManager, and (2) the relative position calculated by Motors using the number of spins of the wheels. The spin of the wheels and the position and orientation calculated by the QR recording helps also to estimate, confirm, or adjust the consolidated position of the robot." base_Property="_8SHEcCJnEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_FurFgiJoEeuzyIKctWR2HA" base_Connector="_Fuh7kCJoEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_P3nrcSJoEeuzyIKctWR2HA" description="The user manager is responsible of storing the latest calibration values of the patient and to provide the list of activities to the ActivityManager as prescribed previously by the TherapistConfigurationManager." base_Property="_NKWM4CJoEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_1QohkSJuEeuzyIKctWR2HA" description="The main control unit is agnostic to the activity (i.e., game) that is currently happening. It receives target positions and orientation angle of the robot, target finger forces, wrist angle, and shoulder force translated into arm weight, and according to the position of the PositioningSystem will ask the Motor actuators to move accordingly." base_Property="_yz71oCJuEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_iIO34iJvEeuzyIKctWR2HA" base_Connector="_iIIxQCJvEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_i737UyJvEeuzyIKctWR2HA" base_Connector="_i737UCJvEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_jsk_giJvEeuzyIKctWR2HA" base_Connector="_jsjxYCJvEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_XwNesSJwEeuzyIKctWR2HA" description="A force sensing resistor (FSR) for the thumb allows measuring the grasp movement. It is included on the hand add-on. The sensor translate the force the patient applies to the device and this information is sent to the MainControlUnit." base_Property="_Wgb44CJwEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_ZmLh0yJwEeuzyIKctWR2HA" base_Connector="_ZmLh0CJwEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_bs-2QCJwEeuzyIKctWR2HA" description="A force sensing resistor (FSR) for the fingers (except the thumb) allows measuring the grasp movement. It is included on the hand add-on. The sensor translate the force the patient applies to the device and this information is sent to the MainControlUnit." base_Property="_acZYICJwEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_dNltYyJwEeuzyIKctWR2HA" base_Connector="_dNltYCJwEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_iOmwMCJwEeuzyIKctWR2HA" description="This sensor provides to the MainControlUnit information about the angle in which the patient turns the wrist (prono-supination exercise). It is also included in the hand add-on in the arc covering the wrist." base_Property="_gu_-oCJwEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_j9bCcyJwEeuzyIKctWR2HA" base_Connector="_j9bCcCJwEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_mALkYSJwEeuzyIKctWR2HA" description="The load cell is a sensor to measure the weight that the patient applies on the bar where the hand add-on and forearm orthosis are attached on the robot. This sensor allows shoulder elevation force measurements. It is positioned in the forearm. This information is sent to the MainControlUnit." base_Property="_kq07ACJwEeuzyIKctWR2HA"/>
+  <robotics.generics:Connects xmi:id="_o8iAwiJwEeuzyIKctWR2HA" base_Connector="_o8chMCJwEeuzyIKctWR2HA"/>
+  <robotics.components:ComponentInstance xmi:id="_7eutwCN6EeubsovPQ54aZw" description="The camera is inside the base module, perpendicular to the QR mat in a way that the camera can read the QR codes. Images are sent to the QRManager for their processing." base_Property="_59xRUCN6EeubsovPQ54aZw"/>
+  <robotics.generics:Connects xmi:id="_9pIIwSN6EeubsovPQ54aZw" base_Connector="_9pD3UCN6EeubsovPQ54aZw"/>
+  <robotics.components:ComponentInstance xmi:id="_dJpFAC-3EeuRI8TFRRccyg" description="The robot uses 3 motors, one for each wheel. The system includes an algorithm for the motors and thus the robot smooth movement and turn according to the spin instructions of the MainControlUnit. This component groups the functionalities of the motor driver and encoder." base_Property="_b0nLwC-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentInstance xmi:id="_fYjzoC-3EeuRI8TFRRccyg" description="The robot uses 3 motors, one for each wheel. The system includes an algorithm for the motors and thus the robot smooth movement and turn according to the spin instructions of the MainControlUnit. This component groups the functionalities of the motor driver and encoder." base_Property="_d41tUC-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentInstance xmi:id="_g-IqUC-3EeuRI8TFRRccyg" description="The robot uses 3 motors, one for each wheel. The system includes an algorithm for the motors and thus the robot smooth movement and turn according to the spin instructions of the MainControlUnit. This component groups the functionalities of the motor driver and encoder." base_Property="_gHU-IC-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_pnjXMS-3EeuRI8TFRRccyg" base_Connector="_pngT4C-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_qhgeAC-3EeuRI8TFRRccyg" base_Connector="_qheBwC-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_rWgMUC-3EeuRI8TFRRccyg" base_Connector="_rWdwEC-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_yxTJ8i-3EeuRI8TFRRccyg" base_Connector="_yxQtsC-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_z4HBAi-3EeuRI8TFRRccyg" base_Connector="_z4EkwC-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_27Pa0i-3EeuRI8TFRRccyg" base_Connector="_27NloC-3EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentInstance xmi:id="_AUAhAC-4EeuRI8TFRRccyg" description="The activity manager takes the defined training games for the user, handle the screen visualisation of the game, and provide the target positions, finger forces, wrist angle, and arm weight to the MainControlUnit according to the sequence planned in the game. Once the target is reached the same game continues with next target until the planned time is reached. A new game can be started if the previous one has been finished, according to the therapy plan." base_Property="__M2rsC-3EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_sYbG4i-4EeuRI8TFRRccyg" base_Connector="_sYZRsC-4EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_xc8Joi-4EeuRI8TFRRccyg" base_Connector="_xc5GUC-4EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_9vk_8C-4EeuRI8TFRRccyg" base_Connector="_9vhVkC-4EeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_iUaO0C-5EeuRI8TFRRccyg" base_Connector="_iUV9YC-5EeuRI8TFRRccyg"/>
+  <robotics.components:ComponentInstance xmi:id="_2TAYgC_rEeuRI8TFRRccyg" description="The calibration is a special activity where the current position, angles and forces are retrieved from the MainControlUnit to establish the limits of the patient. It corresponds to the special activities in the assessment games, where the patient is asked to perform his/her maximum movement in each case." base_Property="_1h7g4C_rEeuRI8TFRRccyg"/>
+  <robotics.components:ComponentInstance xmi:id="_Is3NQDADEeuRI8TFRRccyg" description="It allows the therapist to define the activities for each patient (therapy plan and calibration games), as well as monitoring the rehabilitation progress." base_Property="_FO1AIDADEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_r0lk8DADEeuRI8TFRRccyg" base_Connector="_r0jIsDADEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_sw5cMTADEeuRI8TFRRccyg" base_Connector="_sw3nADADEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_uyHGADADEeuRI8TFRRccyg" base_Connector="_uyFQ0DADEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_tDIiETALEeuRI8TFRRccyg" base_Connector="_tDAmQDALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_uglXgDALEeuRI8TFRRccyg" base_Connector="_ugi7QDALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_ve-SYjALEeuRI8TFRRccyg" base_Connector="_ve8dMDALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_wlhqwDALEeuRI8TFRRccyg" base_Connector="_wlfOgDALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_xinlIjALEeuRI8TFRRccyg" base_Connector="_xilv8DALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_y53r8DALEeuRI8TFRRccyg" base_Connector="_y50ooDALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_z47VMjALEeuRI8TFRRccyg" base_Connector="_z44R4DALEeuRI8TFRRccyg"/>
+  <robotics.generics:Connects xmi:id="_o7m1wDA8EeuZK9oFDoz9Xg" base_Connector="_o7LX8DA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_rKOCYDA8EeuZK9oFDoz9Xg" base_Connector="_rKJw8DA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_tKQngDA8EeuZK9oFDoz9Xg" base_Connector="_tKLvADA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_vVJxwDA8EeuZK9oFDoz9Xg" base_Connector="_vVFgUDA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_w9UpcTA8EeuZK9oFDoz9Xg" base_Connector="_w9RmIDA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_1DcxUDA8EeuZK9oFDoz9Xg" base_Connector="_1DX40DA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_2uZ3QDA8EeuZK9oFDoz9Xg" base_Connector="_2uUXsDA8EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_ibpTQDA9EeuZK9oFDoz9Xg" base_Connector="_iblB0DA9EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_u2fqYDA9EeuZK9oFDoz9Xg" base_Connector="_u2ax4DA9EeuZK9oFDoz9Xg"/>
+  <robotics.generics:Connects xmi:id="_tKzxwDCXEeuJqrcFq_KYYQ" base_Connector="_tKqn0DCXEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_uRNZIDCXEeuJqrcFq_KYYQ" base_Connector="_uRJuwDCXEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_DmXiYDCkEeuJqrcFq_KYYQ" base_Connector="_DmOYcDCkEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_UknzQDCkEeuJqrcFq_KYYQ" base_Connector="_Ukkv8DCkEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_VkLLwjCkEeuJqrcFq_KYYQ" base_Connector="_VkIIcDCkEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_XkVFojCkEeuJqrcFq_KYYQ" base_Connector="_XkSpYDCkEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_YoKhMDCkEeuJqrcFq_KYYQ" base_Connector="_YoHd4DCkEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_eGsCkjCoEeuJqrcFq_KYYQ" base_Connector="_eGkt0DCoEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_gSw4kjCoEeuJqrcFq_KYYQ" base_Connector="_gSucUDCoEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_ko8OoTCoEeuJqrcFq_KYYQ" base_Connector="_ko5yYDCoEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_mNXOwTCoEeuJqrcFq_KYYQ" base_Connector="_mNUygDCoEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_niVdoDCoEeuJqrcFq_KYYQ" base_Connector="_niTBYDCoEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_pqmxsDCoEeuJqrcFq_KYYQ" base_Connector="_pqjuYDCoEeuJqrcFq_KYYQ"/>
+  <robotics.generics:Connects xmi:id="_0ysOgDCqEeu1D4wq5GCSUQ" base_Connector="_0yahsDCqEeu1D4wq5GCSUQ"/>
+  <robotics.generics:Connects xmi:id="_17V4oDCqEeu1D4wq5GCSUQ" base_Connector="_17PyADCqEeu1D4wq5GCSUQ"/>
+  <robotics.generics:Connects xmi:id="_8_C-YjDKEeu1D4wq5GCSUQ" base_Connector="_8-_7EDDKEeu1D4wq5GCSUQ"/>
+  <robotics.generics:Connects xmi:id="_tAAAYDDNEeuup88rAKJRkw" base_Connector="_s_j7gDDNEeuup88rAKJRkw"/>
+  <assertions:Property xmi:id="_nzhGUDLvEeuHqJjGBEv9aA" base_Property="_nEDYQDLvEeuHqJjGBEv9aA"/>
+  <assertions:Property xmi:id="_2q9bsDLvEeuHqJjGBEv9aA" base_Property="_2DiPUDLvEeuHqJjGBEv9aA"/>
+  <assertions:Assertion xmi:id="_XZgVgDLwEeuHqJjGBEv9aA" base_Constraint="_XYx8wDLwEeuHqJjGBEv9aA"/>
+  <assertions:Property xmi:id="_6TbaYDLzEeufbP1yHwB7yg" base_Property="_5levQDLzEeufbP1yHwB7yg"/>
+  <robotics.parameters:ParameterInstance xmi:id="_D2I7MDL-Eeu_e4MztRMXwA" base_InstanceSpecification="_D18t8TL-Eeu_e4MztRMXwA"/>
+  <robotics.parameters:ParameterInstance xmi:id="_Ew3eEDL-Eeu_e4MztRMXwA" base_InstanceSpecification="_EwzMoDL-Eeu_e4MztRMXwA"/>
+  <robotics.parameters:ParameterInstance xmi:id="_FnMCEDL-Eeu_e4MztRMXwA" base_InstanceSpecification="_FnIXsDL-Eeu_e4MztRMXwA"/>
+  <assertions:Assertion xmi:id="_HkWncDMAEeu_e4MztRMXwA" base_Constraint="_HkLoUDMAEeu_e4MztRMXwA"/>
+  <assertions:Assertion xmi:id="_2KimgDMAEeu_e4MztRMXwA" base_Constraint="_2KfjMDMAEeu_e4MztRMXwA"/>
+  <assertions:Assertion xmi:id="_8koVEDMAEeu_e4MztRMXwA" base_Constraint="_8kkqsDMAEeu_e4MztRMXwA"/>
+  <assertions:Contract xmi:id="_yjzT4DMBEeu_e4MztRMXwA" description="Avoid lifting up the robot, and check the maximum speed of the motors" assumptions="_XZgVgDLwEeuHqJjGBEv9aA _HkWncDMAEeu_e4MztRMXwA _2KimgDMAEeu_e4MztRMXwA _8koVEDMAEeu_e4MztRMXwA" base_Comment="_yjw3oDMBEeu_e4MztRMXwA"/>
+</xmi:XMI>

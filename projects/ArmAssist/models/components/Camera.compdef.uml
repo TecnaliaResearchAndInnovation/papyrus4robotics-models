@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assertions="http://www.eclipse.org/papyrus/robotics/assertions/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
+  <uml:Model xmi:id="_7TlrQCA5Eeu08oaM1iCsgw" name="CameraCompdef">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_7TlrQSA5Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_7TlrQiA5Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_LaOOAJcvEeeV0-Lu2yLOjA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Iq8G4CA6Eeu08oaM1iCsgw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://DML_ROS2_TRAFO/ros2.servicedef.uml#_T7frkG-0EeiX6ta975XXMg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_1zhB8CN7EeubsovPQ54aZw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIB_BASE/services/std_msgs.servicedef.uml#ID"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zsDpYCN_EeubsovPQ54aZw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIB_BASE/services/sensor_msgs.servicedef.uml#ID"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7TlrQyA5Eeu08oaM1iCsgw" name="Camera">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_qa34YDMWEeu_e4MztRMXwA">
+        <body>CameraContract</body>
+      </ownedComment>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_XNNCUC1zEeuqXpzl2BLvOQ" name="frames_out" constrainedElement="_7TlrQyA5Eeu08oaM1iCsgw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_XNcS4C1zEeuqXpzl2BLvOQ" name="constraintSpec">
+          <language>P4R Othello</language>
+          <body>always (out_image implies then time_until (out_image)=1000 / fps)</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_prUAgDMSEeu_e4MztRMXwA" name="fps_options" constrainedElement="_7TlrQyA5Eeu08oaM1iCsgw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_pr9gwDMSEeu_e4MztRMXwA" name="constraintSpec">
+          <language>P4R OCL</language>
+          <body>Set {15, 30, 45, 60, 90, 120} -> includes (fps)</body>
+        </specification>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_EQTuoCA6Eeu08oaM1iCsgw" name="out_image" type="_Ir2s4CA6Eeu08oaM1iCsgw" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_CfxGwC1vEeumTfH-BBoRBQ" name="megaPixels">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_DMMH4C1vEeumTfH-BBoRBQ">
+          <language>OCL</language>
+          <body>5</body>
+        </defaultValue>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_7TlrRCA5Eeu08oaM1iCsgw">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_XvXWQC8KEeugHZKCbQxokA" name="fps">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_aouwEC8KEeugHZKCbQxokA" value="15"/>
+        </ownedAttribute>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Ir2s4CA6Eeu08oaM1iCsgw" name="ComponentService3">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zsXycCN_EeubsovPQ54aZw" client="_Ir2s4CA6Eeu08oaM1iCsgw">
+          <supplier xmi:type="uml:Interface" href="pathmap://ROS2_LIB_BASE/services/sensor_msgs.servicedef.uml#svcdefs/P_Image"/>
+          <contract xmi:type="uml:Interface" href="pathmap://ROS2_LIB_BASE/services/sensor_msgs.servicedef.uml#svcdefs/P_Image"/>
+        </interfaceRealization>
+      </nestedClassifier>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrRSA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrRiA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrRyA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrSCA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrSSA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrSiA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//components"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_EZ1TgJZ2Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrSyA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrTCA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commpattern"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_8Z6x8Je6EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrTSA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrTiA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//deployment"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_tu6OsJe9EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrTyA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrUCA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//services"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SlbOAJe_EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrUSA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrUiA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commobject"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_bz5AcPCaEeee6ab5J_C5Dg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrUyA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrVCA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//functions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SV7GwC6LEei0V9-WLHIyvg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrVSA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrViA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//parameters"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_-pU5oDmpEei--ZsfKWaFtw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrVyA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrWCA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrWSA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrWiA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Foundations/NFPs"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7TlrWyA5Eeu08oaM1iCsgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7TlrXCA5Eeu08oaM1iCsgw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Annexes/VSL/DataTypes"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wsXWkC1uEeumTfH-BBoRBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsYksC1uEeumTfH-BBoRBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/assertions/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_ASSERTIONS/assertions.profile.uml#_N9HP0HQPEeqOfoT8vF1-1w"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.components:ComponentDefinitionModel xmi:id="_7TlrXSA5Eeu08oaM1iCsgw" description="A general-purpose camera. It has a parameter regarding the frames per second (fps) that can be configured." base_Package="_7TlrQCA5Eeu08oaM1iCsgw"/>
+  <robotics.components:ComponentDefinition xmi:id="_7TlrXiA5Eeu08oaM1iCsgw" description="" base_Class="_7TlrQyA5Eeu08oaM1iCsgw"/>
+  <robotics.parameters:Parameter xmi:id="_7TlrXyA5Eeu08oaM1iCsgw" base_Class="_7TlrRCA5Eeu08oaM1iCsgw"/>
+  <robotics.components:ComponentService xmi:id="_Ir37ACA6Eeu08oaM1iCsgw" base_Class="_Ir2s4CA6Eeu08oaM1iCsgw"/>
+  <robotics.components:ComponentPort xmi:id="_Ir6-UCA6Eeu08oaM1iCsgw" base_Port="_EQTuoCA6Eeu08oaM1iCsgw"/>
+  <assertions:Property xmi:id="_DMJEkC1vEeumTfH-BBoRBQ" base_Property="_CfxGwC1vEeumTfH-BBoRBQ"/>
+  <assertions:Assertion xmi:id="_XNZPkC1zEeuqXpzl2BLvOQ" base_Constraint="_XNNCUC1zEeuqXpzl2BLvOQ"/>
+  <robotics.parameters:ParameterEntry xmi:id="_ZFeNkC8KEeugHZKCbQxokA" description="The possible values are exclusively 15, 30, 45, 60, 90 or 120." base_Property="_XvXWQC8KEeugHZKCbQxokA"/>
+  <assertions:Assertion xmi:id="_pr2MADMSEeu_e4MztRMXwA" base_Constraint="_prUAgDMSEeu_e4MztRMXwA"/>
+  <assertions:Contract xmi:id="_qbC3gDMWEeu_e4MztRMXwA" description="The fps parameter value is one of the predefined valid values, and a new image is available at the frequency defined by the fps parameter. " assumptions="_pr2MADMSEeu_e4MztRMXwA" guarantees="_XNZPkC1zEeuqXpzl2BLvOQ" base_Comment="_qa34YDMWEeu_e4MztRMXwA"/>
+</xmi:XMI>

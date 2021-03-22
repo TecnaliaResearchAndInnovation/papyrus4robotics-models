@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wQ5f4CJoEeuzyIKctWR2HA" type="CompositeStructure" name="TherapeutConfigurationManager diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_wQ5f4SJoEeuzyIKctWR2HA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wQ5f4iJoEeuzyIKctWR2HA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wQ5f4yJoEeuzyIKctWR2HA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wQ5f5CJoEeuzyIKctWR2HA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wQ5f5SJoEeuzyIKctWR2HA" type="Class_StructureCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_wQ5f5iJoEeuzyIKctWR2HA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wQ5f5yJoEeuzyIKctWR2HA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_wQ5f6CJoEeuzyIKctWR2HA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wQ5f6SJoEeuzyIKctWR2HA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_wQ5f6iJoEeuzyIKctWR2HA" type="Class_StructureCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_wQ5f6yJoEeuzyIKctWR2HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ5f7CJoEeuzyIKctWR2HA"/>
+        </children>
+        <element xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ5f7SJoEeuzyIKctWR2HA" x="54" y="20" width="101" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wvDbmiJoEeuzyIKctWR2HA" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wvDbmyJoEeuzyIKctWR2HA"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wvDbnSJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wvDbnCJoEeuzyIKctWR2HA" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7D89cyQWEeuGQ5Z3YY4PPA" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7D89dCQWEeuGQ5Z3YY4PPA"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7D89diQWEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7D89dSQWEeuGQ5Z3YY4PPA" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_-xU1bS2KEeuqXpzl2BLvOQ" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-xU1bi2KEeuqXpzl2BLvOQ"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-xU1cC2KEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-xU1by2KEeuqXpzl2BLvOQ" x="394" y="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qPY-MzACEeuRI8TFRRccyg" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_qPY-NDACEeuRI8TFRRccyg"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qPY-NjACEeuRI8TFRRccyg" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qPY-NTACEeuRI8TFRRccyg" x="254" y="20"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="__ty8UDAJEeuRI8TFRRccyg" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__ty8UTAJEeuRI8TFRRccyg"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="__ty8UzAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ty8UjAJEeuRI8TFRRccyg" x="254" y="20"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wQ5f7iJoEeuzyIKctWR2HA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ5f7yJoEeuzyIKctWR2HA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wu5qgCJoEeuzyIKctWR2HA" type="StereotypeLabel">
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_wu5qgSJoEeuzyIKctWR2HA" name="stereotype" stringValue="robotics::components::ComponentDefinition"/>
+      <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_L3wdoJZ2Eeeq1f8hGgKVzA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wu5qgiJoEeuzyIKctWR2HA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wu5qgyJoEeuzyIKctWR2HA" type="StereotypeBrace">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wu5qhCJoEeuzyIKctWR2HA"/>
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_wu5qhSJoEeuzyIKctWR2HA" name="stereotype" stringValue="robotics::components::ComponentDefinition"/>
+      <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_L3wdoJZ2Eeeq1f8hGgKVzA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wu5qhiJoEeuzyIKctWR2HA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wu5qpyJoEeuzyIKctWR2HA" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wu5qqCJoEeuzyIKctWR2HA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wu5qqSJoEeuzyIKctWR2HA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wu5qtCJoEeuzyIKctWR2HA" type="StereotypeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wu5qtSJoEeuzyIKctWR2HA"/>
+      <styles xmi:type="notation:StringValueStyle" xmi:id="_wu5qtiJoEeuzyIKctWR2HA" name="stereotype" stringValue="robotics::components::ComponentDefinition"/>
+      <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_L3wdoJZ2Eeeq1f8hGgKVzA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wu5qtyJoEeuzyIKctWR2HA"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5uL5sCJoEeuzyIKctWR2HA" type="Port_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5uL5siJoEeuzyIKctWR2HA" type="Port_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5uL5syJoEeuzyIKctWR2HA" x="25" y="3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5uL5tCJoEeuzyIKctWR2HA" type="Port_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5uL5tSJoEeuzyIKctWR2HA" x="25" y="-10"/>
+      </children>
+      <element xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#_217TICJoEeuzyIKctWR2HA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5uL5sSJoEeuzyIKctWR2HA" x="-10" y="70"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AE2g0CJpEeuzyIKctWR2HA" type="Port_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AE2g0iJpEeuzyIKctWR2HA" type="Port_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AE2g0yJpEeuzyIKctWR2HA" x="25" y="3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AE2g1CJpEeuzyIKctWR2HA" type="Port_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AE2g1SJpEeuzyIKctWR2HA" x="25" y="-10"/>
+      </children>
+      <element xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#__ZG1ICJoEeuzyIKctWR2HA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AE2g0SJpEeuzyIKctWR2HA" x="-10" y="110"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Fzh64CJpEeuzyIKctWR2HA" type="Port_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Fzh64iJpEeuzyIKctWR2HA" type="Port_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Fzh64yJpEeuzyIKctWR2HA" x="25" y="3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Fzh65CJpEeuzyIKctWR2HA" type="Port_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Fzh65SJpEeuzyIKctWR2HA" x="25" y="-10"/>
+      </children>
+      <element xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#_DIQncCJpEeuzyIKctWR2HA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fzh64SJpEeuzyIKctWR2HA" x="591" y="140"/>
+    </children>
+    <element xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ5f8CJoEeuzyIKctWR2HA" x="100" y="60" width="341" height="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wQ5f8SJoEeuzyIKctWR2HA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_wQ5f8iJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wQ5f8yJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ5f9CJoEeuzyIKctWR2HA" x="420" y="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wQ5f9SJoEeuzyIKctWR2HA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_wQ5f9iJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wQ5f9yJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ5f-CJoEeuzyIKctWR2HA" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wu5qqiJoEeuzyIKctWR2HA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_wu5qqyJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wu5qrSJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wu5qrCJoEeuzyIKctWR2HA" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7D7IUCQWEeuGQ5Z3YY4PPA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_7D7IUSQWEeuGQ5Z3YY4PPA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7D7IUyQWEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7D7IUiQWEeuGQ5Z3YY4PPA" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_-xSZIC2KEeuqXpzl2BLvOQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_-xSZIS2KEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-xSZIy2KEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-xSZIi2KEeuqXpzl2BLvOQ" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qPVT0DACEeuRI8TFRRccyg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_qPVT0TACEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qPVT0zACEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qPVT0jACEeuRI8TFRRccyg" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__tuq-jAJEeuRI8TFRRccyg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="__tuq-zAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__tuq_TAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__tuq_DAJEeuRI8TFRRccyg" x="300" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__t5C8DAJEeuRI8TFRRccyg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="__t5C8TAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__t5C8zAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#_217TICJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__t5C8jAJEeuRI8TFRRccyg" x="190" y="70"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__t_JkDAJEeuRI8TFRRccyg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="__t_JkTAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__t_JkzAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#__ZG1ICJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__t_JkjAJEeuRI8TFRRccyg" x="190" y="110"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__uEpIDAJEeuRI8TFRRccyg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="__uEpITAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__uEpIzAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#_DIQncCJpEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__uEpIjAJEeuRI8TFRRccyg" x="791" y="140"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_wQ5f-SJoEeuzyIKctWR2HA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_wQ5f-iJoEeuzyIKctWR2HA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_wQ5f-yJoEeuzyIKctWR2HA" diagramKindId="org.eclipse.papyrus.robotics.diagram.component">
+    <owner xmi:type="uml:Model" href="TherapistConfigurationManager.compdef.uml#_wQvu4CJoEeuzyIKctWR2HA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="TherapistConfigurationManager.compdef.uml#_wQvu4CJoEeuzyIKctWR2HA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_wQ5f_CJoEeuzyIKctWR2HA" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wQ5f_SJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wQ5f_iJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wQ5f_yJoEeuzyIKctWR2HA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gACJoEeuzyIKctWR2HA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gASJoEeuzyIKctWR2HA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wQ5gAiJoEeuzyIKctWR2HA" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="_wQ5f8SJoEeuzyIKctWR2HA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wQ5gAyJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wQ5gBCJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wQ5gBSJoEeuzyIKctWR2HA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gBiJoEeuzyIKctWR2HA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gByJoEeuzyIKctWR2HA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wQ5gCCJoEeuzyIKctWR2HA" type="StereotypeCommentLink" source="_wQ5f5iJoEeuzyIKctWR2HA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wQ5gCSJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wQ5gCiJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wQ5gCyJoEeuzyIKctWR2HA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gDCJoEeuzyIKctWR2HA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gDSJoEeuzyIKctWR2HA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wQ5gDiJoEeuzyIKctWR2HA" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="_wQ5f9SJoEeuzyIKctWR2HA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wQ5gDyJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wQ5gECJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wQ5gESJoEeuzyIKctWR2HA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gEiJoEeuzyIKctWR2HA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wQ5gEyJoEeuzyIKctWR2HA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wu5qriJoEeuzyIKctWR2HA" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="_wu5qqiJoEeuzyIKctWR2HA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wu5qryJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wu5qsyJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wu5qsCJoEeuzyIKctWR2HA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wu5qsSJoEeuzyIKctWR2HA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wu5qsiJoEeuzyIKctWR2HA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wvDbniJoEeuzyIKctWR2HA" type="StereotypeCommentLink" source="_wQ5f5iJoEeuzyIKctWR2HA" target="_wvDbmiJoEeuzyIKctWR2HA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wvDbnyJoEeuzyIKctWR2HA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wvDboyJoEeuzyIKctWR2HA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wvDboCJoEeuzyIKctWR2HA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wvDboSJoEeuzyIKctWR2HA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wvDboiJoEeuzyIKctWR2HA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7D7IVCQWEeuGQ5Z3YY4PPA" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="_7D7IUCQWEeuGQ5Z3YY4PPA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_7D7IVSQWEeuGQ5Z3YY4PPA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7D7IWSQWEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7D7IViQWEeuGQ5Z3YY4PPA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7D7IVyQWEeuGQ5Z3YY4PPA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7D7IWCQWEeuGQ5Z3YY4PPA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7D9kcCQWEeuGQ5Z3YY4PPA" type="StereotypeCommentLink" source="_wQ5f5iJoEeuzyIKctWR2HA" target="_7D89cyQWEeuGQ5Z3YY4PPA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_7D9kcSQWEeuGQ5Z3YY4PPA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7D9kdSQWEeuGQ5Z3YY4PPA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7D9kciQWEeuGQ5Z3YY4PPA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7D9kcyQWEeuGQ5Z3YY4PPA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7D9kdCQWEeuGQ5Z3YY4PPA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-xSZJC2KEeuqXpzl2BLvOQ" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="_-xSZIC2KEeuqXpzl2BLvOQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_-xSZJS2KEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-xSZKS2KEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-xSZJi2KEeuqXpzl2BLvOQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-xSZJy2KEeuqXpzl2BLvOQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-xSZKC2KEeuqXpzl2BLvOQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-xU1cS2KEeuqXpzl2BLvOQ" type="StereotypeCommentLink" source="_wQ5f5iJoEeuzyIKctWR2HA" target="_-xU1bS2KEeuqXpzl2BLvOQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_-xU1ci2KEeuqXpzl2BLvOQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-xVccS2KEeuqXpzl2BLvOQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-xU1cy2KEeuqXpzl2BLvOQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-xU1dC2KEeuqXpzl2BLvOQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-xVccC2KEeuqXpzl2BLvOQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qPVT1DACEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="_qPVT0DACEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qPVT1TACEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qPVT2TACEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qPVT1jACEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qPVT1zACEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qPVT2DACEeuRI8TFRRccyg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qPY-NzACEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_wQ5f5iJoEeuzyIKctWR2HA" target="_qPY-MzACEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qPY-ODACEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qPY-PDACEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qPY-OTACEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qPY-OjACEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qPY-OzACEeuRI8TFRRccyg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__tuq_jAJEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_wQ5f4SJoEeuzyIKctWR2HA" target="__tuq-jAJEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="__tuq_zAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__turAzAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu4yJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__turADAJEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__turATAJEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__turAjAJEeuRI8TFRRccyg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__ty8VDAJEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_wQ5f5iJoEeuzyIKctWR2HA" target="__ty8UDAJEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="__ty8VTAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__ty8WTAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TherapistConfigurationManager.compdef.uml#_wQvu5CJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__ty8VjAJEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ty8VzAJEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ty8WDAJEeuRI8TFRRccyg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__t5C9DAJEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_5uL5sCJoEeuzyIKctWR2HA" target="__t5C8DAJEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="__t5C9TAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__t5C-TAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#_217TICJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__t5C9jAJEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__t5C9zAJEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__t5C-DAJEeuRI8TFRRccyg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__t_JlDAJEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_AE2g0CJpEeuzyIKctWR2HA" target="__t_JkDAJEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="__t_JlTAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__t_JmTAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#__ZG1ICJoEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__t_JljAJEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__t_JlzAJEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__t_JmDAJEeuRI8TFRRccyg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__uEpJDAJEeuRI8TFRRccyg" type="StereotypeCommentLink" source="_Fzh64CJpEeuzyIKctWR2HA" target="__uEpIDAJEeuRI8TFRRccyg">
+    <styles xmi:type="notation:FontStyle" xmi:id="__uEpJTAJEeuRI8TFRRccyg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__uEpKTAJEeuRI8TFRRccyg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="TherapistConfigurationManager.compdef.uml#_DIQncCJpEeuzyIKctWR2HA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__uEpJjAJEeuRI8TFRRccyg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__uEpJzAJEeuRI8TFRRccyg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__uEpKDAJEeuRI8TFRRccyg"/>
+  </edges>
+</notation:Diagram>
